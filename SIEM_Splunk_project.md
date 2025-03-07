@@ -30,7 +30,7 @@ Security Information and Event Management (SIEM) solutions are essential for det
    sudo /opt/splunk/bin/splunk start
    ```
 4. Accept the license and set up an admin username/password.
-5. **(Screenshot)**: Show Splunk web login page.
+<img width="1297" alt="Screenshot 2025-03-07 at 10 56 27" src="https://github.com/user-attachments/assets/b3f38f9c-c9bc-4c1a-8e50-2e6098646812" />
 
 ---
 
@@ -64,7 +64,7 @@ sudo /opt/splunk/bin/splunk add monitor /var/log/auth.log -index main -sourcetyp
    index=main sourcetype=syslog
    ```
 4. You should see real-time log data flowing in.
-5. **(Screenshot)**: Show logs appearing in the Splunk search UI.
+<img width="1440" alt="Screenshot 2025-03-07 at 11 02 49" src="https://github.com/user-attachments/assets/6c85f653-eed8-43e9-b434-f78e173f47a4" />
 
 ### **Step 3: Set Up Splunk Forwarder**
 
@@ -97,7 +97,20 @@ Splunk Universal Forwarder allows remote log forwarding to the main Splunk insta
    ```bash
    sudo /opt/splunk/bin/splunk enable listen 9997
    ```
-4. **(Screenshot)**: Show successful log forwarding confirmation.
+<img width="1114" alt="Screenshot 2025-03-07 at 14 16 42" src="https://github.com/user-attachments/assets/ffd08848-0727-441d-a4a8-6fbaf4fff513" />
+
+
+
+### **Proper Usage of Splunk Forwarder**
+- **Splunk Forwarder** is used when logs need to be collected from multiple machines and sent to a central Splunk instance.
+- Unlike the main Splunk instance, the forwarder has a minimal footprint and does not process or index logs.
+- Logs from the forwarder appear in Splunk under the configured source type and index.
+
+### **Challenges Faced & Solutions**
+
+- **Low Log Volume on Kali Linux:** Since Kali is a fresh install, fewer logs were generated compared to older systems. Running services like SSH and creating failed login attempts helped generate more logs.
+- **Auth.log Access Issues:** Resolved by running Splunk with elevated permissions and ensuring logs were readable.
+- **Splunk Forwarder Not Communicating:** Verified connectivity by checking Splunk’s listening ports and confirming firewall settings.
 
 ---
 
@@ -149,7 +162,7 @@ index=main sourcetype=syslog "systemd" AND "reboot"
 
 ---
 
-## 🛠️ Challenges & Lessons Learned
+## 🛠️ Lessons Learned
 
 - **File Permission Issues**: Resolved with `sudo chmod` for log access.
 - **Filtering False Positives**: Fine-tuned queries to reduce noise.
@@ -162,11 +175,3 @@ index=main sourcetype=syslog "systemd" AND "reboot"
 ## ✅ Conclusion
 
 This project provided hands-on experience in setting up **Splunk for SIEM**, ingesting logs, detecting security threats, and configuring **Splunk Forwarder** for distributed logging. Additionally, it demonstrated creating **alerts and dashboards** to enhance security monitoring.
-
-🔹 **Next Steps**: Expand by integrating firewall logs, IDS/IPS alerts, and cloud security monitoring.
-
----
-
-**🚀 GitHub Repo:** [Coming Soon]  \
-📬 **Contact Me:** [LinkedIn](https://www.linkedin.com/in/emmanuelajayi) | [TryHackMe](https://tryhackme.com/p/EmmySec)
-
