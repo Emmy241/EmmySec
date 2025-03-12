@@ -25,9 +25,11 @@ I'm a cybersecurity professional passionate about **offensive & defensive securi
 
 ---
 
+https://github.com/Emmy241/EmmySec/blob/main/vulnassess.md
+
 ## 🚀 **Projects**
 📌 **[SIEM Log Monitoring with Splunk](https://github.com/Emmy241/EmmySec/blob/main/SIEM_Splunk_project.md)** – Setting up log monitoring on Kali Linux  
-📌 **[Pentesting Web Apps with ZAP](https://github.com/EmmySec/pentest-zap)** – Finding security vulnerabilities in web apps  
+📌 **[Pentesting Web Apps with ZAP](https://github.com/Emmy241/EmmySec/blob/main/vulnassess.md)** – Finding security vulnerabilities in web apps  
 📌 **[Incident Response Lab](https://github.com/EmmySec/incident-response-lab)** – A simulated SOC environment  
 
 ---
