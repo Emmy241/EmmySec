@@ -41,7 +41,8 @@ This project involves conducting a **vulnerability assessment** using **OWASP ZA
    ```
 3. Configure your browser proxy to **localhost:8080** for traffic interception.
 
-**[Screenshot Placeholder]**: OWASP ZAP installation and proxy setup
+<img width="1073" alt="image" src="https://github.com/user-attachments/assets/7e1c7436-9963-45e1-b997-ebc2e98d0e4e" />
+
 
 ### **1.3 Installing Nessus**
 1. Download Nessus for Linux from [Tenable](https://www.tenable.com/downloads/nessus)
@@ -57,7 +58,7 @@ This project involves conducting a **vulnerability assessment** using **OWASP ZA
 4. Access Nessus via browser: `https://localhost:8834`
 5. Register for **Nessus Essentials** and activate with the provided key.
 
-**[Screenshot Placeholder]**: Nessus installation and activation steps
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/a08effa4-84ad-4c20-b856-587fc8390941" />
 
 ---
 
@@ -69,7 +70,8 @@ This project involves conducting a **vulnerability assessment** using **OWASP ZA
 3. Initiate an **Active Scan** to detect security flaws
 4. Review the findings under the **Alerts tab**
 
-**[Screenshot Placeholder]**: OWASP ZAP scan results
+<img width="1068" alt="image" src="https://github.com/user-attachments/assets/88c7ad31-0650-4bd1-88cc-b0cb1030e5fd" />
+
 
 ### **2.2 Network & System Scanning with Nessus**
 1. Open Nessus and create a **New Scan**
@@ -90,8 +92,6 @@ This project involves conducting a **vulnerability assessment** using **OWASP ZA
 - **Patch outdated software** to fix vulnerabilities
 - **Disable unnecessary services** to reduce attack surface
 - **Restrict access using firewall rules**
-
-**[Screenshot Placeholder]**: Before & after applying security patches
 
 ---
 
