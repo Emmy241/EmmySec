@@ -1,6 +1,6 @@
 # 👋 Hey, I'm Emmanuel "Emmy" Ajayi!  
 
-### 🚀 Cybersecurity Specialist | Vulnerability Assessment | SIEM & Log Analysis | Tech & Fitness  
+### 🚀 Cybersecurity Specialist | Vulnerability Assessment | SIEM & Log Analysis  
 
 I'm a cybersecurity professional focused on **offensive and defensive security**, specializing in **vulnerability assessments**, **SIEM/log analysis**, and **penetration testing**. I leverage tools like **Burp Suite, Nessus, Splunk, OWASP ZAP**, and more to identify threats, reduce risk, and help businesses build **resilient systems**.
 
@@ -10,7 +10,7 @@ I'm a cybersecurity professional focused on **offensive and defensive security**
 - 🎓 **Certifications:** CompTIA Security+ | Google Cybersecurity Certificate  
 - 🛡️ **Cybersecurity Interests:** Vulnerability Assessment | Web App Security | Threat Hunting | SOC  
 - 📖 **Currently Learning:** Advanced Incident Response & Threat Detection  
-- 🏋️‍♂️ **Fun Fact:** I’m also passionate about fitness and high-level modeling.
+- 🏋️‍♂️ **Fun Fact:** I’m also passionate about fitness and high-fashion modeling.
 
 ---
 
@@ -46,14 +46,18 @@ I'm a cybersecurity professional focused on **offensive and defensive security**
 
 ## 🚀 **Projects**
 
-📌 **[Vulnerability Assessment with DVWA + Nessus/Burp](https://github.com/Emmy241/EmmySec/blob/main/nessus.md)**  
+📌 **[Vulnerability Assessment with DVWA + Nessus](https://github.com/Emmy241/EmmySec/blob/main/nessus.md)**  
 — A complete walkthrough of a local web app penetration test using industry tools and OWASP Top 10 methodology  
 
 📌 **[SIEM Log Monitoring with Splunk](https://github.com/Emmy241/EmmySec/blob/main/SIEM_Splunk_project.md)**  
 — Monitoring and analyzing logs from Kali Linux for threat detection  
 
 📌 **[Incident Response Lab](https://github.com/EmmySec/incident-response-lab)**  
-— Simulated SOC environment for triage, investigation, and IR playbook testing
+— Simulated SOC environment for triage, investigation, and IR playbook testing  
+
+📌 **[Web Application Vulnerability Testing with OWASP ZAP](https://github.com/Emmy241/EmmySec/blob/main/zap_project.md)**  
+— Web application scanning using OWASP ZAP to detect XSS, broken authentication, and insecure configurations
+
 
 ---
 
