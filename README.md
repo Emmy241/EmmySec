@@ -46,7 +46,7 @@ I'm a cybersecurity professional focused on **offensive and defensive security**
 
 ## 🚀 **Projects**
 
-📌 **[Vulnerability Assessment with DVWA + Nessus/Burp](https://github.com/Emmy241/EmmySec/blob/main/vulnassess.md)**  
+📌 **[Vulnerability Assessment with DVWA + Nessus/Burp](https://github.com/Emmy241/EmmySec/blob/main/nessus.md)**  
 — A complete walkthrough of a local web app penetration test using industry tools and OWASP Top 10 methodology  
 
 📌 **[SIEM Log Monitoring with Splunk](https://github.com/Emmy241/EmmySec/blob/main/SIEM_Splunk_project.md)**  
