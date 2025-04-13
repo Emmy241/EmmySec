@@ -124,21 +124,6 @@ if ($request_method ~* TRACE) {
 
 ---
 
-## 📁 Project Structure
-
-
-dvwa-nessus-vuln-assessment/
-├── README.md
-├── Nessus_Vuln_Report_DVWA.pdf
-├── scan_output.nessus (optional)
-└── screenshots/
-    ├── nessus_dashboard.png
-    ├── openssl_cve.png
-    ├── php_version.png
-    └── http_trace.png
-
----
-
 ## ⚖️ Legal & Ethical Note
 
 This project was conducted in a safe and legal test environment using DVWA. No real systems or sensitive data were harmed. Always obtain written permission before testing external systems.
