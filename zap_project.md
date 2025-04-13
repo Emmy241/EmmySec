@@ -94,10 +94,11 @@ nmap -Pn juice-shop.herokuapp.com
 ---
 
 ## 📁 Screenshots (in /screenshots)
+<img width="1353" alt="Screenshot 2025-04-08 at 17 19 46" src="https://github.com/user-attachments/assets/7438e4ab-ce5d-4fab-9203-a7beb6585e99" />
 
-- zap_alerts.png – Security headers and risk alerts
-- ssl_labs_grade.png – SSL Grade A evidence
-- nmap_scan.png – Nmap open port results
+<img width="1138" alt="Screenshot 2025-04-08 at 17 28 07" src="https://github.com/user-attachments/assets/a969367f-3619-41ca-850f-72ea19d5638a" />
+
+<img width="847" alt="Screenshot 2025-04-08 at 17 00 53" src="https://github.com/user-attachments/assets/c934d296-14f6-4af0-8daf-ea9c7ca891a4" />
 
 ---
 
